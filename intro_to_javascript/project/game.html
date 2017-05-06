@@ -1,0 +1,55 @@
+<html>
+<head>
+    <title>Snail Energy Inc.</title>
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="center">
+    <h1>Maintenance Manager @ Snailville</h1>
+    <h3>Snail Energy Inc.</h3>
+</div>
+
+<div>
+    <p>Benvenut* nella console di gestione manutenzione delle lumache elettriche della Snail Energy Inc., leader
+        incontrastato di produzione elettrica a Snailville. Qui potrai assicurarti che ci siano sempre sufficienti
+        lumache che possano soddisfare le esigenze energetiche dei cittadini.</p>
+
+    <p>La citta' e' appena stata fondata e ci sono ancora pochi cittadini, ma nel tempo aumenteranno rapidamente. Tieni
+        quindi gli occhi aperti, le lumanche non devono morire! Ma non comprarne troppe o finiremo senza soldi e quindi
+        falliremo.</p>
+
+    <p>Fintanto che ci saranno sufficienti lumache elettriche l'energia scorrera' fino agli abitanti e loro ci daranno i
+        loro bellissimi e profumati dollari. Ricorda che siamo sotto contratto, ogni volta che non daremo corrente
+        elettrica sufficiente dovremo pagare danni ad ognuno di loro!</p>
+</div>
+
+<div>
+    <div class="column-left">
+        <img src="assets/electro-snail.gif" class="full-block-width" style="height: 220px"/>
+        <div class="center">
+            <span id="totalSnailsText"></span> SNAILS<br/>
+            <span id="totalMoneyText"></span> MONEY<br/>
+
+            <button onclick="buySnail()">BUY SNAIL (100$/snail)</button>
+        </div>
+    </div>
+    <div class="column-center">
+        <img id="electricityImage" src="assets/electricity.jpg" class="full-block-width" style="height: 150px"/>
+        <div class="center">
+            <span id="energyProducedText"></span> ENERGY PRODUCED<br/>
+        </div>
+    </div>
+    <div class="column-right">
+        <img src="assets/people-with-money.jpg" class="full-block-width" style="height: 220px"/>
+        <div class="center">
+            <span id="totalPeopleText"></span> PEOPLE<br/>
+            <span id="energyNeededText"></span> ENERGY NEEDED<br/>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

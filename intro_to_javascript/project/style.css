@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.center {
+    text-align: center;
+}
+
+.column-left {
+    float: left;
+    width: 25%;
+}
+
+.column-right {
+    float: right;
+    width: 25%;
+}
+
+.column-center {
+    display: inline-block;
+    width: 50%;
+}
+
+.full-block-width {
+    width: 100%;
+}
+
+.hide {
+    display: none;
+}
