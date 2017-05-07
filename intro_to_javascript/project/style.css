@@ -4,6 +4,16 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+p{
+  font-size: 1.5em;
+}
+
+.inner {
+  position: relative;
+  width: 1000px;
+  margin: 0 auto;
+}
+
 .center {
     text-align: center;
 }
